@@ -1,10 +1,4 @@
 body {
-	background-attachment: fixed;
-	background-image: url("../img/body-bg.jpg");
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
 	&:after {
 		position: absolute;
 		content: "";
@@ -19,41 +13,30 @@ body {
 	}
 }
 .main-wrapper-first {
-	width: 68.75%;
+	width:100%;
 	margin: 0 auto;
-	margin-top: 6rem;
 	@include media-breakpoint-up(xl) {
-		width: 75%;
-	}
-	@include media-breakpoint-down(lg) {
-		width: 90%;
-	}
-	@include media-breakpoint-down(sm) {
-		margin-top: 3rem;
-		width: 97%;
+		width: 100%;
 	}
 }
 .main-wrapper {
-	width: 68.75%;
+	width: 100%;
 	margin: 0 auto;
 	@include media-breakpoint-up(xl) {
-		width: 75%;
-	}
-	@include media-breakpoint-down(lg) {
-		width: 90%;
-	}
-	@include media-breakpoint-down(sm) {
-		width: 97%;
+		width: 100%;
 	}
 }
-
+.brandName {
+	font-size: 16px;
+	font-weight: 500;
+}
 .p1-gradient-bg {
-	background-image: -moz-linear-gradient( 135deg, rgb(73,227,206) 0%, rgb(153,32,237) 100%);
-	background-image: -webkit-linear-gradient( 135deg, rgb(73,227,206) 0%, rgb(153,32,237) 100%);
-	background-image: -ms-linear-gradient( 135deg, rgb(73,227,206) 0%, rgb(153,32,237) 100%);
+	background-image: -moz-linear-gradient( 135deg, #7DC243, #1A5B36);
+	background-image: -webkit-linear-gradient( 135deg, #7DC243, #1A5B36);
+	background-image: -ms-linear-gradient( 135deg, #7DC243, #1A5B36);
 }
 .p1-gradient-color {
-	background: -webkit-linear-gradient(0deg, #9920ed, #49e3ce);
+	background: -webkit-linear-gradient(0deg, #7DC243, #1A5B36);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -143,7 +126,7 @@ body {
 			left: 0;
 			width: 75%;
 			height: 100%;
-			background: url(../img/s.jpg) no-repeat center center/cover;
+			background: url(../img/fc4.jpeg) no-repeat center center/cover;
 			z-index: 1;
 			@include media-breakpoint-down (sm) {
 				width: 100%;
@@ -187,13 +170,13 @@ body {
 			.owl-dot {
 				height: 33.33%;
 				&:nth-child(1){
-					background: url(../img/sd1.jpg) no-repeat center center/cover;
+					background: url(../img/fc7.jpeg) no-repeat center center/cover;
 				}
 				&:nth-child(2){
-					background: url(../img/sd2.jpg) no-repeat center center/cover;
+					background: url(../img/fc2.jpeg) no-repeat center center/cover;
 				}
 				&:nth-child(3){
-					background: url(../img/sd3.jpg) no-repeat center center/cover;
+					background: url(../img/fc8.jpeg) no-repeat center center/cover;
 				}
 			}
 		}
@@ -386,7 +369,7 @@ body {
 		right: 0;
 		width: 50%;
 		height: 100%;
-		background: url(../img/story-bg.jpg) no-repeat center center/cover;
+		background: url(../img/fc9.jpeg) no-repeat center center/cover;
 		z-index: 1;
 		@include media-breakpoint-down(md) {
 			display: none;
